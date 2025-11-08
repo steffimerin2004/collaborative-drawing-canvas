@@ -1,0 +1,5 @@
+body { font-family: sans-serif; text-align: center; }
+canvas { border: 1px solid black; margin-top: 10px; }
+.toolbar { margin-bottom: 10px; }
+button, input { padding: 5px 10px; margin: 0 5px; }
+

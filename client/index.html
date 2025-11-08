@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Collaborative Drawing Canvas</title>
+</head>
+<body>
+
+  <h1>Collaborative Drawing Canvas</h1>
+
+  <div id="controls">
+    <input type="color" id="colorPicker" value="#000000">
+    <input type="number" id="strokeWidth" value="2" min="1" max="50">
+    <button id="undoBtn">Undo</button>
+    <button id="redoBtn">Redo</button>
+  </div>
+
+  <canvas id="drawing-canvas" width="800" height="600"></canvas>
+
+  <!-- Socket.io -->
+  <script src="/socket.io/socket.io.js"></script>
+
+  <!-- Project JS files -->
+  <script src="websocket.js"></script>
+  <script src="canvas.js"></script>
+  <script src="main.js"></script>
+
+</body>
+</html>
+
+
+
+
